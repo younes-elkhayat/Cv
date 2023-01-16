@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(240, 240, 240);
+
+}
+
+.back-side {
+    background-color: #2205a3;
+    
+}
+
+hr {
+    border: 1.5px solid black !important;
+    border-radius: 10%;
+}
+
+.img-younes {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+.back-side {
+    padding-block: 7px;
+    transform: scale(1);
+    transition-property: "transform";
+    transition-duration: 0.3s;
+}
+
+.back-side:hover {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+    transition-property: "transform";
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
+}
+h3{
+    color: rgb(35, 71, 128);
+}
+h5{
+    color: #4c2b6b;
+}
+.hover:hover{
+    padding: 1.5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.01);
+    transition-property: "transform";
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+}
