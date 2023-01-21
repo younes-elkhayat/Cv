@@ -15,8 +15,8 @@ hr {
 
 .img-younes {
     border-radius: 50%;
-    height: 120px;
-    width: 120px;
+    height: 10em;
+    width: 10em;
 }
 .back-side {
     padding-block: 7px;
@@ -49,3 +49,4 @@ h5{
     transition-duration: 0.3s;
     transition-delay: 0.2s;
 }
+
